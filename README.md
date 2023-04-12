@@ -27,7 +27,7 @@ echo "24.99 + 49.99 + 7.99" | ./aicalc.sh
 82.97
 ```
 HOPEFULLY
-
+:trollface:
 ![](demo.gif)
 
 <sub>* meme-ware use at your own risk</sub>
