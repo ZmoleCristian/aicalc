@@ -1,6 +1,10 @@
 #!/bin/bash
 api=$(cat api.key)
 read input
+if [ "$input" == "6000000/365" ]; then
+      echo "You have been banned from calculator"
+      exit
+fi
 response=$(curl https://api.openai.com/v1/chat/completions \
       -H 'Content-Type: application/json' \
       -H "Authorization: Bearer "$api"" \
